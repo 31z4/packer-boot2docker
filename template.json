@@ -1,7 +1,7 @@
 {
   "variables": {
     "iso_target_path": "packer_cache/boot2docker.iso",
-    "version": "17.10.0"
+    "version": "18.01.0"
   },
 
   "builders": [{
@@ -9,7 +9,7 @@
     "name": "{{user `build`}}",
 
     "iso_url": "https://github.com/boot2docker/boot2docker/releases/download/v{{user `version`}}-ce/boot2docker.iso",
-    "iso_checksum": "954077024339c64307e303e30bb4db8fba78930487df3d040089472d323e8b72056907de5b8a247a752ce2b8c5e8a83de78ae5a34e6894a44b7b28bd9f10b8df",
+    "iso_checksum": "4060d6eeab3ab57da83f8addfafb3234404422a466814c69a12e4d410bde7a769ad7795c99e00d29c65fd5c67b4b99d92d8731ad47aa563796448a27ed7ec9da",
     "iso_checksum_type": "sha512",
     "iso_target_path": "{{user `iso_target_path`}}",
 
